@@ -1,0 +1,27 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    background-color: #FBFBFB;
+}
+.container {
+    max-width: 1190px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.lock {
+    overflow: hidden;
+}
+
+
+@keyframes arrow-animate {   
+  0% {     
+    transform: translateY(0);   
+  }    
+  100% {
+    transform: translateY(30px); 
+   }
+}

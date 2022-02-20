@@ -1,0 +1,63 @@
+.header {
+    padding-top: 38px;
+
+    &__inner {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__box {
+        display: flex;
+
+    }
+
+    &__info {
+        margin-left: 98px;
+    }
+
+    &__phone {
+        display: block;
+        padding-bottom: 2px;
+        font-weight: 500;
+        border-bottom: 1px solid $accent;
+        &_icon {
+            position: relative;
+        }
+        &_icon::before {
+            content: '';
+            position: absolute;
+            top: 3px;
+    left: -24px;
+            width: 14px;
+            height: 14px;
+            background-image: url(../img/icons/phone.svg);
+        }
+    }
+
+    &__social-links {
+       
+        margin-top: 3px;
+    }
+}
+
+
+.menu-list {
+    display: flex;
+
+    &__item {
+        &:not(:last-child) {
+            margin-right: 32px;
+        }
+    }
+
+    &__link {
+        font-weight: 500;
+        transition:color .5s;
+        &:hover {
+color: $accent;
+        }
+    }
+}
+
