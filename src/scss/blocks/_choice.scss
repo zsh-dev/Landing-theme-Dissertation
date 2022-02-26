@@ -1,0 +1,50 @@
+.choice {
+
+    padding-bottom: 95px;
+
+    &__title {
+        margin-bottom: 38px;
+    }
+
+    &__inner {
+        display: flex;
+        align-items: center;
+    }
+
+    &__img {
+        flex: 1 0 405px;
+        margin-right: 19px;
+    }
+
+    &__list {
+        display: grid;
+        grid-template-columns: 60% 1fr;
+        gap:100px 20px ;
+
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        position: relative;
+
+        font-size: 18px;
+        line-height: 21px;
+
+       
+    }
+
+    &__item-title {
+        font-weight: 700;
+    }
+
+    &__text {
+        font-weight: 400;
+        
+    }
+}
+
+.container {}
+
+.title {}

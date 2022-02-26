@@ -1,0 +1,35 @@
+.info {
+
+    &__inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__descr {
+        margin-right: 30px;
+        max-width: 600px;
+    }
+
+    &__title {
+        margin-bottom: 39px;
+    }
+
+    &__text {
+        margin-top: 47px;
+        font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+
+color: #000000;
+span {
+    font-weight: 700;
+}
+span.text_red {
+    color: $accent;
+}
+    }
+
+    &__img {
+    }
+}

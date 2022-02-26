@@ -1,0 +1,39 @@
+.banner {
+    background: $accent url(../img/banner-bg.png) center center / cover no-repeat;
+
+   
+
+    &__container {
+        position: relative;
+        display: flex;
+       align-items: flex-end;
+        flex-direction: column;
+        padding: 68px 15px;
+        overflow: hidden;
+       
+    }
+    &__bg-img {
+        position: absolute;
+        top: -80%;
+        left: -10%;
+
+    }
+    &__inner {
+        z-index: 1;
+    }
+
+    &__title {
+        font-weight: bold;
+font-size: 22px;
+line-height: 27px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+max-width: 660px;
+margin-bottom: 23px;
+    }
+    &__text {
+        max-width: 455px;
+    }
+}
+

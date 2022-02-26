@@ -1,0 +1,78 @@
+.connect {
+    padding-bottom: 30px;
+
+    &__title {
+        margin-bottom: 18px;
+    }
+
+    &__text-info {
+        margin-bottom: 53px;
+        max-width: 455px;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 60px;
+    }
+}
+
+.card-info {
+
+
+    &__icon {
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    &__title {
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 27px;
+    }
+}
+
+.connect-form {
+    background-color: #313131;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 19px 35px 28px;
+  
+    &__input {
+        max-width: 233px;
+        height: 60px;
+        padding: 21px 16px;
+        flex-grow: 1;
+        margin-right: 35px;
+        background-color: #FBFBFB;
+        border: 1px solid #D9D9D9;
+        &::placeholder {
+            font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+
+opacity: 0.6;
+        }
+    }
+
+    &__phone {
+        margin-right: 35px;
+        flex-grow: 1;
+        max-width: 233px;
+        input {
+            width: 100%;
+            margin-right: 0;
+        }
+    }
+    &__textarea {
+        padding: 15px;
+        flex-grow: 1;
+        max-width: 338px;
+        resize: none;
+        &::placeholder {
+            font-size: 12px;
+line-height: 14px;
+        }
+    }
+}

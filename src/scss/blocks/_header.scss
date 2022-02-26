@@ -40,11 +40,17 @@
        
         margin-top: 3px;
     }
+    .btn-close {
+        display: none;
+    }
 }
 
 
-.menu-list {
-    display: flex;
+.menu {
+    &__list {
+        display: flex;
+    }
+   
 
     &__item {
         &:not(:last-child) {
@@ -59,5 +65,7 @@
 color: $accent;
         }
     }
+
+    
 }
 

@@ -1,4 +1,4 @@
-@import 'base/mixins';
+
 @import 'base/variables';
 @import 'libs/minireset.min';
 @import 'fonts';
@@ -13,12 +13,21 @@
 @import 'blocks/advantages';
 @import 'blocks/about';
 @import 'blocks/services';
+@import 'blocks/choice';
+@import 'blocks/works';
+@import 'blocks/connect';
+@import 'blocks/info';
+@import 'blocks/banner';
+@import 'blocks/economy';
+@import 'blocks/help';
 
 
 
 
 
 
+@import 'blocks/footer';
+@import 'blocks/modal';
 
 
 

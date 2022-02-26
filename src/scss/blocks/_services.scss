@@ -9,17 +9,29 @@
         margin-bottom: 60px;
     }
 
-    &__cards {}
+    &__cards {
+        
+    max-width: 860px;
+    }
 
     &__card {
         &:not(:last-child) {
             margin-bottom: 43px;
         }
     }
+    &__inner {
+        position: relative;
+
+    }
+    .big-title_transform {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%) rotate(90deg);
+        right: -150px;
+    }
 }
 
 .services-card {
-    max-width: 860px;
     border: 1px solid $accent;
     padding: 36px 21px 36px 34px;
 
@@ -105,7 +117,6 @@
     background-color:  $accent;
     .title {
         position: relative;
-        color: #fff;
         padding-left: 33px;
         &::before {
             content: '';
@@ -119,10 +130,6 @@
     }
     .services-card__price p {
         color: #fff;
-    }
-    .btn {
-        background-color: #fff;
-        color: #303030;
     }
   
     .services-card__item {
